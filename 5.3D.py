@@ -11,144 +11,144 @@ LED = LED(14)
 win = Tk()
 win.title("Blinking Morse code")
 myFont = tkinter.font.Font(family = 'Times', size = 16, weight = 'bold')
-var = IntVar()
-Input = StringVar()
+var = IntVar()                                      #holds an integer
+Input = StringVar()                                 #holds a string
     
 def BlinkingMorsecode():      
-    v = var.get()
-    value = Input.get()
-    value.upper()
+    v = var.get()                                  #getting the integer input from the user
+    value = Input.get()                            #getting the string input from the user
+    value.upper()                                  #accepting the upper case string as well
     if v == 1:
         for char in value:
-            if (char == 'a'):
+            if (char == 'a'):                      #morse code for a
                 dot()
                 dash()
             
-            elif (char == 'b'):
+            elif (char == 'b'):                    #morse code for b
                 dash()
                 dot()
                 dot()
                 dot()
             
-            elif (char == 'c'):
+            elif (char == 'c'):                     #morse code for c
                 dash()
                 dot()
                 dash()
                 dot()
                 
-            elif (char == 'd'):
+            elif (char == 'd'):                     #morse code for d
                 dash()
                 dot()
                 dot()
                 
-            elif (char == 'e'):
+            elif (char == 'e'):                     #morse code for e
                 dot()
                 
-            elif (char == 'f'):
+            elif (char == 'f'):                     #morse code for f  
                 dot()
-                dot()
-                dash()
-                dot()
-                
-            elif (char == 'g'):
-                dash()
-                dash()
-                dot()
-                
-            elif (char == 'h'):
-                dot()
-                dot()
-                dot()
-                dot()
-                
-            elif (char == 'i'):
-                dot()
-                dot()
-                
-            elif (char == 'j'):
-                dot()
-                dash()
-                dash()
-                dash()
-                
-            elif (char == 'k'):
-                dash()
-                dot()
-                dash()
-                
-            elif (char == 'l'):
-                dot()
-                dash()
-                dot()
-                dot()
-                
-            elif (char == 'm'):
-                dash()
-                dash()
-                
-            elif (char == 'n'):
-                dash()
-                dot()
-                
-            elif (char == 'o'):
-                dash()
-                dash()
-                dash()
-                
-            elif (char == 'p'):
-                dot()
-                dash()
-                dash()
-                dot()
-                
-            elif (char == 'q'):
-                dash()
-                dash()
-                dot()
-                dash()
-                
-            elif (char == 'r'):
                 dot()
                 dash()
                 dot()
                 
-            elif (char == 's'):
+            elif (char == 'g'):                     #morse code for g
+                dash()
+                dash()
+                dot()
+                
+            elif (char == 'h'):                     #morse code for h
+                dot()
                 dot()
                 dot()
                 dot()
                 
-            elif (char == 't'):
+            elif (char == 'i'):                      #morse code for i
+                dot()
+                dot()
+                
+            elif (char == 'j'):                      #morse code for j
+                dot()
+                dash()
+                dash()
                 dash()
                 
-            elif (char == 'u'):
+            elif (char == 'k'):                      #morse code for k
+                dash()
+                dot()
+                dash()
+                
+            elif (char == 'l'):                      #morse code for l
+                dot()
+                dash()
+                dot()
+                dot()
+                
+            elif (char == 'm'):                      #morse code for m
+                dash()
+                dash()
+                
+            elif (char == 'n'):                      #morse code for n
+                dash()
+                dot()
+                
+            elif (char == 'o'):                      #morse code for o
+                dash()
+                dash()
+                dash()
+                
+            elif (char == 'p'):                      #morse code for p
+                dot()
+                dash()
+                dash()
+                dot()
+                
+            elif (char == 'q'):                      #morse code for q
+                dash()
+                dash()
+                dot()
+                dash()
+                
+            elif (char == 'r'):                      #morse code for r
+                dot()
+                dash()
+                dot()
+                
+            elif (char == 's'):                       #morse code for s
+                dot()
+                dot()
+                dot()
+                
+            elif (char == 't'):                       #morse code for t 
+                dash()
+                
+            elif (char == 'u'):                       #morse code for u
                 dot()
                 dot()
                 dash()
                 
-            elif (char == 'v'):
+            elif (char == 'v'):                       #morse code for v
                 dot()
                 dot()
                 dot()
                 dash()
             
-            elif (char == 'w'):
+            elif (char == 'w'):                       #morse code for w
                 dot()
                 dash()
                 dash()
                 
-            elif (char == 'x'):
+            elif (char == 'x'):                       #morse code for x
                 dash()
                 dot()
                 dot()
                 dash()
                 
-            elif (char == 'y'):
+            elif (char == 'y'):                       #morse code for y
                 dash()
                 dot()
                 dash()
                 dash()
                 
-            elif (char == 'z'):
+            elif (char == 'z'):                        #morse code for z
                 dash()
                 dash()
                 dot()
@@ -156,70 +156,70 @@ def BlinkingMorsecode():
 
     if v ==2:
         for char in value:
-            if (char == '1'):
+            if (char == '1'):                          #morse code for number 1
                 dot()
                 dash()
                 dash()
                 dash()
                 dash()
                 
-            elif (char == '2'):
+            elif (char == '2'):                        #morse code for number 2
                 dot()
                 dot()
                 dash()
                 dash()
                 dash()
                 
-            elif (char == '3'):
+            elif (char == '3'):                         #morse code for number 3
                 dot()
                 dot()
                 dot()
                 dash()
                 dash()
                 
-            elif (char == '4'):
+            elif (char == '4'):                          #morse code for number 4
                 dot()
                 dot()
                 dot()
                 dot()
                 dash()
                 
-            elif (char == '5'):
+            elif (char == '5'):                          #morse code for number 5
                 dot()
                 dot()
                 dot()
                 dot()
                 dot()
                 
-            elif (char == '6'):
+            elif (char == '6'):                          #morse code for number 6
                 dash()
                 dot()
                 dot()
                 dot()
                 dot()
                 
-            elif (char == '7'):
+            elif (char == '7'):                           #morse code for number 7
                 dash()
                 dash()
                 dot()
                 dot()
                 dot()
                 
-            elif (char == '8'):
+            elif (char == '8'):                            #morse code for number 8
                 dash()
                 dash()
                 dash()
                 dot()
                 dot()
                 
-            elif (char == '9'):
+            elif (char == '9'):                            #morse code for number 9
                 dash()
                 dash()
                 dash()
                 dash()
                 dot()
                 
-            elif (char == '0'):
+            elif (char == '0'):                             #morse code for number 0
                 dash()
                 dash()
                 dash()
@@ -227,45 +227,45 @@ def BlinkingMorsecode():
                 dash()
             
 def dot():
-    LED.on()
+    LED.on()                                                #declaring the dot function and setting the time delay of 1 sec for both led on and off
     time.sleep(1)
     LED.off()
     time.sleep(1)
     
 def dash():
     LED.on()
-    time.sleep(3)
+    time.sleep(3)                                           #declaring the dash function and setting the time delay of 3 sec for led on and 1 sec for led of
     LED.off()
     time.sleep(1)
 
 def function(Input):
     value = Input.get()
-    if len(value)>12: Input.set(value[:12])
+    if len(value)>12: Input.set(value[:12])                 
 
 l1 = Label(win, text='Select an option from below', font=('Arial', 12))
-l1.pack()
+l1.pack()                                                    #pack() is used so that the text appears in a packed box
 
-R1 = Radiobutton(win, text="Alphabets", value=1, variable = var, command=BlinkingMorsecode)
-R1.pack()
+R1 = Radiobutton(win, text="Alphabets", value=1, variable = var, command=BlinkingMorsecode)    
+R1.pack()                                                    #creating the radiobutton1
 
 R2 = Radiobutton(win, text="Numbers", value=2, variable = var, command=BlinkingMorsecode)
-R2.pack()
+R2.pack()                                                     #creating radiobutton2
 
 label = Label(win, text='Type Something (not more than 12 characters)', font=('Arial', 12))
 label.pack()
 
-Input.trace('w', lambda name, index, mode, Input=Input: function(Input))
-text_box = Entry(win, textvariable=Input, width=30, bg='white')
+Input.trace('w', lambda name, index, mode, Input=Input: function(Input))    
+text_box = Entry(win, textvariable=Input, width=30, bg='white')    #creating a text box where the input will be taken from the user
 text_box.pack()
 
-print = Button(win, text = 'print', command=BlinkingMorsecode)
+print = Button(win, text = 'print', command=BlinkingMorsecode)   #creating a print button
 print.pack()
 
 def close():
     GPIO.cleanup()
     win.destroy()
 
-exitButton =  Button(win, text = 'exit', command=close)
+exitButton =  Button(win, text = 'exit', command=close)         #creating an exit button
 exitButton.pack()
 
 win.mainloop()
